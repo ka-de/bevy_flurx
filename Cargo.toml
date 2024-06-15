@@ -6,9 +6,9 @@ authors = ["elm"]
 categories = ["asynchronous", "game-development"]
 description = "Allows you to write sequential description of processes involving delays, user input, and other waits."
 keywords = ["game", "gamedev", "bevy", "async"]
-license = "MIT OR Apache-2.0"
+license = "MIT"
 readme = "README.md"
-repository = "https://github.com/not-elm/bevy_flurx"
+repository = "https://github.com/ka-de/bevy_flurx"
 
 [workspace]
 exclude = ["benches"]
@@ -38,7 +38,9 @@ name = "switch_just_change"
 path = "examples/bug_check/switch_just_change.rs"
 
 [dependencies]
-bevy = { version = "0.13.2", default-features = false, features = ["multi-threaded"] }
+bevy = { version = "0.13.2", default-features = false, features = [
+  "multi-threaded",
+] }
 flurx = { version = "0.1.6" }
 futures-polling = "0.1.1"
 pollster = "0.3.0"
