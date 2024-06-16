@@ -60,7 +60,7 @@ bevy_egui = { git = "https://github.com/ka-de/bevy_egui" }
 bevy-progressbar = { git = "https://github.com/ka-de/bevy-progressbar" }
 
 [features]
-default = ["audio", "record", "effect", "tokio"]
+default = ["audio", "record", "effect"]
 audio = ["bevy/bevy_audio", "bevy/bevy_asset"]
 tokio = ["dep:tokio", "dep:async-compat"]
 record = []
