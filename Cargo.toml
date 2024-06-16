@@ -57,7 +57,7 @@ reqwest = "0.12.4"
 futures = "0.3.30"
 criterion = { version = "0.5.1", features = ["plotters", "html_reports"] }
 bevy_egui = { git = "https://github.com/ka-de/bevy_egui" }
-bevy_progress_bar = { git = "https://github.com/ka-de/bevy-progress-bar" }
+bevy_progress_bar = { git = "https://github.com/ka-de/bevy-progressbar" }
 
 [features]
 default = ["audio", "record", "effect", "tokio"]
